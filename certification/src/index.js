@@ -11,6 +11,7 @@ const consumer = kafka.consumer({ groupId: 'certificate-group' })
 const producer = kafka.producer();
 
 async function run() {
+  await producer.connect(); 
   await consumer.connect()
   await consumer.subscribe({ topic })
 

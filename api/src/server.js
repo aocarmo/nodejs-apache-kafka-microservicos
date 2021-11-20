@@ -40,7 +40,7 @@ async function run(){
     await consumer.subscribe({topic: 'certification-response'})
     await consumer.run({
         eachMessage: async ({ topic, partition, message }) => {
-            console.log('Resposta', message.value);
+            console.log('Resposta', String(message.value));
         },
     });
     app.listen(3333);

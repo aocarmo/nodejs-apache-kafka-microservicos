@@ -23,6 +23,13 @@ Se conseguir síncrona/assíncrona:
 
 - Empresas que usam Nubank, Uber, Paypal, Netflix
 
+## O que podemos estudar
+
+- Pegar o retorno do consumer com o producer
+- Consumer demorando para subir
+- Frameworks especificos para microservices (Molecular / Nest.js)
+- _expectResponse_ (Algo assim).
+
 ## Getting started
 
 1. Clone this repository;
